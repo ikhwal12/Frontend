@@ -1,0 +1,71 @@
+.boxnavbar2 {
+  width: 1423px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxnavbarkiri2 {
+  width: 50%;
+  height: 60px;
+  background-color: #161616;
+}
+.boxnavbarkanan2 {
+  width: 50%;
+  height: 60px;
+  display: flex;
+  justify-content: right;
+  background-color: #161616;
+  overflow-y: hidden;
+}
+.boxnavbarkanan2 ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+.isilink2 ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding-right: 20px;
+}
+.isilink2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.isilink2 a:visited {
+  color: white;
+}
+.isilink2 a:hover {
+  color: #7abeff;
+}
+.isilink2 .love:hover {
+  filter: brightness(50%);
+}
+.isilink2 .keluar:hover {
+  filter: brightness(50%);
+}
+.loginbuttonnav {
+  color: black !important;
+  text-decoration: none;
+  border-bottom: #7abeff 6px solid;
+  border-top: #7abeff 6px solid;
+  border-left: #7abeff 15px solid;
+  border-right: #7abeff 15px solid;
+  border-radius: 20px;
+  background-color: #7abeff;
+  margin-right: 20px;
+}
+
+.loginbuttonnav:hover {
+  border-bottom: lightgrey 6px solid;
+  border-top: lightgrey 6px solid;
+  border-left: lightgrey 15px solid;
+  border-right: lightgrey 15px solid;
+  background-color: lightgrey;
+}
+li::marker {
+  color: #161616;
+}

@@ -1,0 +1,96 @@
+.boxnavbar {
+  width: 1423px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.boxnavbarkiri {
+  width: 50%;
+  height: 60px;
+  background-color: #161616;
+}
+.boxnavbarkanan {
+  width: 50%;
+  height: 60px;
+  display: flex;
+  justify-content: right;
+  background-color: #161616;
+  overflow-y: hidden;
+}
+.boxnavbarkanan ul li a:link {
+  text-decoration: none;
+  color: white;
+}
+.isilink ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding-right: 20px;
+}
+.isilink {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.isilink a:visited {
+  color: white;
+}
+.isilink a:hover {
+  color: #7abeff;
+}
+.isilink .love:hover {
+  filter: brightness(50%);
+}
+.isilink .keluar:hover {
+  filter: brightness(50%);
+}
+.logo {
+  width: 160px;
+  margin-left: 5px;
+}
+.love {
+  width: 20px;
+  height: 18px;
+}
+.logokeluar {
+  width: 20px;
+}
+.dalamWishlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.keranjang {
+  width: 100px;
+}
+.p1wishlist {
+  color: white;
+  font-weight: 500;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.p2wishlist {
+  color: white;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.p3wishlist {
+  text-align: center;
+  color: #7abeff !important;
+  text-decoration: none;
+  padding: 10px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  margin-top: 30px;
+  background-color: white;
+}
+.p3wishlist:hover {
+  background-color: #a3d3ff !important;
+  color: white !important;
+}

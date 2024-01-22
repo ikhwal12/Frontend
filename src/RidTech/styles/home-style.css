@@ -1,0 +1,132 @@
+.kotak1home {
+  width: 1423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kotak2home {
+  width: 1423px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p1home {
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.p2home {
+  color: white;
+  padding-top: 20px;
+}
+.p3home {
+  color: black;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.p4home {
+  color: black;
+  padding-top: 20px;
+}
+.hp1 {
+  width: 1000px;
+}
+.hp2 {
+  width: 100%;
+}
+.hp3 {
+  width: 100%;
+}
+.hp4 {
+  width: 100%;
+}
+.kotak1home ul {
+  color: #2997ff;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  padding-top: 20px;
+}
+.kotak2home ul {
+  color: #2997ff;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  padding-top: 20px;
+}
+.kotak3home {
+  width: 1423px;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: center;
+}
+.kotak3homekiri {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kotak3homekanan {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p5home {
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.p6home {
+  color: black;
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+.p7home {
+  color: black;
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.p8home {
+  color: black;
+  padding-top: 10px;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+.infobeli1 li {
+  text-decoration: none;
+  list-style-type: none;
+}
+.kotak4home {
+  width: 1423px;
+  height: 350px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.kotak4home1 {
+  width: 33.3%;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+.kotak4home1 p {
+  color: white;
+  font-size: 15px;
+  line-height: 2;
+}
+.footerhome {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 10px;
+}

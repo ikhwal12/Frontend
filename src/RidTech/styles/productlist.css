@@ -1,0 +1,150 @@
+.product {
+  background-color: #000;
+  box-shadow: 0px 0px 7px 0px white;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  overflow: hidden;
+}
+.product {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1300px;
+  height: 100%;
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+.product .coverproduct {
+  width: 20%;
+  height: 20%;
+  object-fit: fill;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.product .title {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+.title {
+  padding-top: 10px;
+}
+.kontenproduk {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.category {
+  color: rgb(169, 180, 212);
+  font-size: 20px;
+  padding-top: 8px;
+  font-weight: 500;
+}
+
+.product .title,
+.product .description,
+.product .category {
+  overflow: hidden;
+}
+
+.rating {
+  width: 100%;
+  max-width: 130px;
+  margin-top: 20px;
+}
+
+.title {
+  margin-top: 8px;
+}
+.wishlist {
+  position: static;
+  border: none;
+  background-color: red;
+  cursor: pointer;
+}
+.wishlist:hover {
+  color: #535353;
+}
+.Beli {
+  background-color: #7abeff;
+  color: black;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+.Beli:hover {
+  background-color: #c2e2ff;
+}
+.popupkiri {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid black;
+}
+.popupkanan {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.imgdetail {
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  height: 250px;
+}
+.titledetail {
+  font-size: 40px;
+  padding-top: 80px;
+  font-weight: 500;
+}
+.descriptiondetail {
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+}
+.productdetailtext {
+  margin-bottom: 10px;
+}
+.tombolbeli {
+  height: 40px;
+  width: 180px;
+  border: none;
+  gap: 2rem;
+  background-color: #7abeff;
+  border-radius: 20px;
+  color: white;
+}
+.tombolbeli:hover {
+  background-color: #c2e2ff;
+}
+.kotaktombol {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.hargadetail {
+  margin-bottom: 50px;
+  margin-top: 30px;
+  color: black;
+  font-size: 50px;
+  border-radius: 20px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
